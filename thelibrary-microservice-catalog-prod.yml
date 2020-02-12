@@ -31,6 +31,3 @@ keycloak:
                         - PUT
                     patterns:
                         - /api/books/*
-
-server:
-    port: 8090
