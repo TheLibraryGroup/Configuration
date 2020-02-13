@@ -4,7 +4,7 @@ spring:
             routes:
             - id: catalog-books
 #              uri: http://localhost:8090
-              uri: lb://THELIBRARY-MICROSERVICE-CATALOG
+              uri: lb://thelibrary-microservice-catalog
               predicates:
               - Path=/api/books/**
         discovery:
