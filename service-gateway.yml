@@ -1,11 +1,11 @@
-spring:
-    cloud:
-        gateway:
-            routes:
-            - id: catalog-books
-#              uri: http://localhost:8090
-              uri: lb://thelibrary-microservice-catalog
-              predicates:
-              - Path=/api/books/**
-        discovery:
-            enabled: false
+#spring:
+#    cloud:
+#        gateway:
+#            routes:
+#            - id: catalog-books
+##              uri: http://localhost:8090
+#              uri: lb://thelibrary-microservice-catalog
+#              predicates:
+#              - Path=/api/books/**
+#        discovery:
+#            enabled: true
