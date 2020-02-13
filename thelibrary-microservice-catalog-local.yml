@@ -4,8 +4,6 @@ keycloak:
     bearer-only: true
     cors: true
     public-client: true
-    #    realm: thelibrary
-    #    resource: app-thelibrary
     realm: TheLibrary
     resource: thelibrary-app
     security-constraints:

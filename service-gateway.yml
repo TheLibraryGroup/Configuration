@@ -3,7 +3,8 @@ spring:
         gateway:
             routes:
             - id: catalog-books
-              uri: http://localhost:8090
+#              uri: http://localhost:8090
+              uri: lb://THELIBRARY-MICROSERVICE-CATALOG
               predicates:
               - Path=/api/books/**
         discovery:
