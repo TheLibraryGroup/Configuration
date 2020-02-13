@@ -1,0 +1,10 @@
+spring:
+    cloud:
+        gateway:
+            routes:
+            - id: catalog-books
+              uri: http://localhost:8090
+              predicates:
+              - Path=/api/books/**
+        discovery:
+            enabled: false
