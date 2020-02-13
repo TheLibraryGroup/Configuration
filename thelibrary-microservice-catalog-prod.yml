@@ -26,7 +26,7 @@ keycloak:
                 -   patterns:
                         - /api/*
                 -   methods:
-                        - GET
+#                        - GET
                         - POST
                         - PUT
                     patterns:
