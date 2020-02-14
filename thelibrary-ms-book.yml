@@ -9,7 +9,7 @@ spring:
     datasource:
         driverClassName: org.postgresql.Driver
         password: 123
-        url: jdbc:postgresql://localhost:5432/db_thelibrary?currentSchema=dev
+        url: jdbc:postgresql://localhost:5432/thelibrary_book?currentSchema=dev
         username: admin_tl
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
