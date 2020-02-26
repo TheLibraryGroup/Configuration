@@ -13,7 +13,17 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/batch/src/main/java/com/javainuse/config/BatchConfig.java">
           <value>
             <set />
           </value>
@@ -23,7 +33,107 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/BatchConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/JobCompletionNotificationListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/LoanDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/LoanItemProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/LoanService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/LoanServiceFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/ThelibraryBatchLoanCheckerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/batch/config/BatchConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/batch/controller/JobInvokerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/batch/step/Processor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/batch/step/Reader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/batch/step/Writer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/broker/RabbitMQConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/dto/BookDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/dto/test.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/service/BookService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/service/BookServiceFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/service/LoanService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thelibrary-batch-loan-checker.yml">
           <value>
             <set />
           </value>
@@ -48,12 +158,92 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mailing-service/src/main/java/org/thibaut/thelibrary/model/SimpleMailMessageDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mailing-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/dto/BookDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/dto/UserDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/BookEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/UserEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/controller/BookController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/helper/DbPopulator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/consumer/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/service/impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/entity/pom.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/entity/src/main/java/org/thibaut/thelibrary/dto/LoanDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/entity/src/main/java/org/thibaut/thelibrary/dto/SimpleMailMessageDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/entity/src/main/java/org/thibaut/thelibrary/entity/LoanEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/microservice/src/main/java/org/thibaut/thelibrary/controller/LoanController.java">
           <value>
             <set />
           </value>
@@ -73,12 +263,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/repository/src/main/java/org/thibaut/thelibrary/restrepository/LoanRestRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/pom.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/SimpleMailMessageDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/config/LoanServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/config/RabbitMQConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/dto/SimpleMailMessageDTO.java">
           <value>
             <set />
           </value>
@@ -89,6 +299,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/publisher/LoanPublisher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookServiceFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/LoanService.java">
           <value>
             <set />
           </value>
