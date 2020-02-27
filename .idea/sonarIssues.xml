@@ -23,7 +23,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/batch/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../../EXTERNE/batch/src/main/java/com/javainuse/config/BatchConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/.gitignore">
           <value>
             <set />
           </value>
@@ -93,6 +108,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/broker/BrokerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../batch-loan-checker/src/main/java/org/thibaut/thelibrary/loanchecker/broker/RabbitMQConfig.java">
           <value>
             <set />
@@ -143,12 +163,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thelibrary-ms-book-local.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thelibrary-ms-book-prod.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thelibrary-ms-loan-local.yml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/thelibrary-ms-loan-prod.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thelibrary-ms-loan.yml">
           <value>
             <set />
           </value>
@@ -183,7 +218,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/AuthorEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/BookEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/CategoryEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/CoordinatesEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/EditorEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/LibraryEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/entity/src/main/java/org/thibaut/thelibrary/entity/RoleEntity.java">
           <value>
             <set />
           </value>
@@ -299,6 +364,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/publisher/LoanPublisher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookFeignClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookFeignClientFallback.java">
           <value>
             <set />
           </value>

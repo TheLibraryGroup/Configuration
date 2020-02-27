@@ -1,4 +1,4 @@
-
+#
 #keycloak:
 #    auth-server-url: http://localhost:8080/auth
 #    bearer-only: true
@@ -7,22 +7,22 @@
 #    realm: TheLibrary
 #    resource: thelibrary-app
 #    security-constraints:
-#        #    -   authRoles:
-#        #        - user
-#        #        - admin
-#        #        securityCollections:
-#        #        -   methods:
-#        #            - GET
-#        #            patterns:
-#        #            - /api/books/*
-#        #            - /api/books
-#        -   authRoles:
-#                - admin
-#            securityCollections:
-#                -   patterns:
-#                        - /api/*
-#                -   methods:
-#                        - POST
-#                        - PUT
-#                    patterns:
-#                        - /api/books/*
+##        #    -   authRoles:
+##        #        - user
+##        #        - admin
+##        #        securityCollections:
+##        #        -   methods:
+##        #            - GET
+##        #            patterns:
+##        #            - /api/books/*
+##        #            - /api/books
+##        -   authRoles:
+##                - admin
+##            securityCollections:
+##                -   patterns:
+##                        - /api/*
+##                -   methods:
+##                        - POST
+##                        - PUT
+##                    patterns:
+##                        - /api/books/*
