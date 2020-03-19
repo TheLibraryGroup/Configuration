@@ -38,6 +38,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/mock-hotels-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/travel-spring-cloud-gateway/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/travel-spring-cloud-gateway/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../batch-loan-checker/.gitignore">
           <value>
             <set />
@@ -234,6 +254,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/KeycloakConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/SecurityConfig.java">
           <value>
             <set />
           </value>
@@ -719,6 +744,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../mailling-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/EXTERNE/spring-cloud-gateway-with-keycloak/src/main/resources/application.yml">
           <value>
             <set />
           </value>
