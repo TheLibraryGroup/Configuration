@@ -233,6 +233,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/KeycloakConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/bootstrap.yml">
           <value>
             <set />
@@ -269,6 +274,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-account/src/main/java/org/thibaut/thelibrary/account/ThelibraryMsAccountApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-account/src/main/java/org/thibaut/thelibrary/account/config/KeycloakConfig.java">
           <value>
             <set />
           </value>
@@ -364,6 +374,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-account/src/main/java/org/thibaut/thelibrary/account/service/dto/UserDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-account/src/main/java/org/thibaut/thelibrary/account/service/mapper/AccountMapper.java">
           <value>
             <set />
           </value>
@@ -589,6 +604,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/dto/SimpleMailMessageDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/mapper/BookMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/mapper/LoanMapper.java">
           <value>
             <set />
           </value>
