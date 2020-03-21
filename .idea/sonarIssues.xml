@@ -43,6 +43,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/mock-hotels-service/src/main/java/com/jdriven/hotels/KeycloakRealmRoleConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/mock-hotels-service/src/main/java/com/jdriven/hotels/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/mock-hotels-service/src/main/java/com/jdriven/hotels/UsernameSubClaimAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../../EXTERNE/spring-security-samples/spring-cloud-gateway-oidc-tokenrelay/pom.xml">
           <value>
             <set />
@@ -249,6 +264,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/CorsFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/GatewayApplication.java">
           <value>
             <set />
           </value>
@@ -493,12 +518,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/CorsFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/KeycloakConfig.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/ResourceServerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/controller/BookController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/controller/CategoryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/controller/EditorController.java">
           <value>
             <set />
           </value>
