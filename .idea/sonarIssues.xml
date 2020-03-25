@@ -283,6 +283,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/pom.xml">
           <value>
             <set />
@@ -309,6 +314,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/KeycloakConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/LoggingGlobalPreFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/org/thibaut/servicegateway/PreFlightCorsConfiguration.java">
           <value>
             <set />
           </value>
@@ -713,6 +728,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/target/generated-sources/annotations/org/thibaut/thelibrary/mapper/BookMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/target/generated-sources/annotations/org/thibaut/thelibrary/mapper/CategoryMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/entity/pom.xml">
           <value>
             <set />
@@ -944,6 +969,31 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/gateway/src/main/java/org/thibaut/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/CategoryMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/mapstruct-examples/mapstruct-bidirectional-onetomany-manytomany/src/main/java/org/thib/mapstructdemo/mapper/BookMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/mapstruct-examples/mapstruct-bidirectional-onetomany-manytomany/src/main/java/org/thib/mapstructdemo/mapper/CategoryMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/mapstruct-examples/mapstruct-bidirectional-onetomany-manytomany/src/main/java/org/thib/mapstructdemo/mapper/EditorMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/mapstruct-examples/mapstruct-bidirectional-onetomany-manytomany/src/test/java/org/thib/mapstructdemo/mapper/BookMapperTest.java">
           <value>
             <set />
           </value>
