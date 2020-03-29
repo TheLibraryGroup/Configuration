@@ -248,6 +248,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thelibrary-ms-book-docker.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thelibrary-ms-book-local.yml">
           <value>
             <set />
@@ -273,7 +278,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../config-service/Dockerfile-configuration">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../config-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../config-service/src/main/java/org/thibaut/thelibrary/configurationservice/ConfigurationServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../config-service/src/main/java/org/thibaut/thelibrary/configurationservice/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../config-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../configuration-service/Dockerfile-configuration">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../configuration-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../configuration-service/src/main/java/org/thibaut/thelibrary/configurationservice/ConfigurationServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../configuration-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../discovery-service/Dockerfile-discovery">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../discovery-service/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
@@ -283,7 +338,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/java/org/thibaut/discoveryservice/DiscoveryServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/java/org/thibaut/discoveryservice/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/java/org/thibaut/discoveryservice/SessionConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/java/org/thibaut/discoveryservice/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/java/org/thibaut/serviceregister/DiscoveryServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka-register-service/src/main/resources/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/Dockerfile-gateway">
           <value>
             <set />
           </value>
@@ -348,12 +438,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/docker/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/thelibrary-ms-book-local.yml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/thelibrary-ms-book-prod.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/wait-for-it.sh">
           <value>
             <set />
           </value>
@@ -538,6 +638,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/Dockerfile-ms-book">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/entity/pom.xml">
           <value>
             <set />
@@ -599,6 +704,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/CorsFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/CustomGatewayFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/HystrixConfig.java">
           <value>
             <set />
           </value>
@@ -718,12 +833,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/service/FeignClientInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/service/impl/BookServiceImpl.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/service/impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/test/java/org/thibaut/thelibrary/service/impl/BookServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -763,7 +888,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/microservice/src/main/java/org/thibaut/thelibrary/config/FeignClientInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/microservice/src/main/java/org/thibaut/thelibrary/config/KeycloakConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/microservice/src/main/java/org/thibaut/thelibrary/config/SecurityConfig.java">
           <value>
             <set />
           </value>
@@ -789,6 +924,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/repository/pom.xml">
           <value>
             <set />
           </value>
@@ -863,6 +1003,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookFeignClientFallbackFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/BookService.java">
           <value>
             <set />
@@ -873,12 +1018,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/FeignClientInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/LoanService.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-loan/service/src/main/java/org/thibaut/thelibrary/service/LoanServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../script/thelibrary_book_create-insert.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../docker/build/back/Dockerfile-back">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../docker/build/back/Dockerfile-gateway">
           <value>
             <set />
           </value>
@@ -948,7 +1113,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../WhereToClimb/webapp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../WhereToClimb/webapp/src/main/java/org/thibaut/wheretoclimb/webapp/security/UserDetailsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/media/jmilton/Data/Workspace/EXTERNE/spring-cloud-gateway-with-keycloak/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/EXTERNE/tutorials/spring-cloud/spring-cloud-bootstrap/config/src/main/java/com/baeldung/spring/cloud/bootstrap/config/ConfigApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/EXTERNE/tutorials/spring-cloud/spring-cloud-bootstrap/gateway/src/main/java/com/baeldung/spring/cloud/bootstrap/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/gateway-service/src/main/java/org/thibaut/servicegateway/SecurityConfig.java">
           <value>
             <set />
           </value>
@@ -974,6 +1169,21 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/CategoryMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/docker/build/back/Dockerfile-configuration">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/docker/build/back/Dockerfile-discovery">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/docker/build/back/Dockerfile-ms-book">
           <value>
             <set />
           </value>
