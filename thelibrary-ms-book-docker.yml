@@ -4,7 +4,7 @@ spring:
         driverClassName: org.postgresql.Driver
         username: admin_tl
         password: 963317
-        url: jdbc:postgresql://mypoc.online:5433/thelibrary_book?currentSchema=dev
+        url: jdbc:postgresql://db.mypoc.online:5433/thelibrary_book?currentSchema=dev
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
         properties:
