@@ -28,6 +28,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/keycloak.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/pga.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/pgadmin.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../../EXTERNE/batch/pom.xml">
           <value>
             <set />
@@ -238,6 +253,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/discovery-service.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thelibrary-batch-loan-checker.yml">
           <value>
             <set />
@@ -328,7 +353,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../discovery-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../discovery-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../docker/docker-compose.yml">
           <value>
             <set />
           </value>
@@ -374,6 +409,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/Dockerfile-gateway">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/pga.conf">
           <value>
             <set />
           </value>
@@ -1134,6 +1174,11 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/EXTERNE/tutorials/spring-cloud/spring-cloud-bootstrap/gateway/src/main/java/com/baeldung/spring/cloud/bootstrap/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/angular-app/Dockerfile-front">
           <value>
             <set />
           </value>

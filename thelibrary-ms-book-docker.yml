@@ -7,20 +7,8 @@ spring:
         url: jdbc:postgresql://mypoc.online:5433/thelibrary_book?currentSchema=dev
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
-        hibernate:
-            ddl-auto: update
         properties:
             hibernate:
                 temp:
                     use_jdbc_metadata_defaults: false
         show-sql: true
-
-logging:
-    level:
-        org:
-            hibernate:
-                SQL: DEBUG
-                type:
-                    descriptor:
-                        sql:
-                            BasicBinder: TRACE
