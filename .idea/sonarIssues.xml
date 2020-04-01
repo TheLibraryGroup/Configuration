@@ -363,6 +363,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../discovery-service/src/main/java/org/thibaut/discoveryservice/DiscoveryServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../discovery-service/src/main/resources/bootstrap.yml">
           <value>
             <set />
@@ -684,6 +689,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/Dockerfile-ms-book">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/docker-compose.yml">
           <value>
             <set />
           </value>

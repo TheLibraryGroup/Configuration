@@ -26,8 +26,8 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '/docker/thelibrary-group/',
                                 remoteDirectorySDF: false,
-                                removePrefix: 'docker',
-                                sourceFiles: '../docker/back/configuration-service-0.0.1-SNAPSHOT.jar'
+                                removePrefix: '',
+                                sourceFiles: 'build/configuration-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -38,25 +38,11 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary/back',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-configuration'
                             ),
-                            sshTransfer(
-                                cleanRemote: false,
-                                excludes: '',
-                                execCommand: '',
-                                execTimeout: 120000,
-                                flatten: false,
-                                makeEmptyDirs: false,
-                                noDefaultExcludes: false,
-                                patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary',
-                                remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: 'docker-compose.yml'
-                            )
                         ],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
@@ -96,8 +82,8 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '/docker/thelibrary-group/',
                                 remoteDirectorySDF: false,
-                                removePrefix: 'docker',
-                                sourceFiles: '../docker/back/discovery-service-0.0.1-SNAPSHOT.jar'
+                                removePrefix: '',
+                                sourceFiles: 'build/discovery-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -108,7 +94,7 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary/back',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-discovery'
@@ -152,8 +138,8 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '/docker/thelibrary-group/',
                                 remoteDirectorySDF: false,
-                                removePrefix: 'docker',
-                                sourceFiles: '../docker/back/gateway-service-0.0.1-SNAPSHOT.jar'
+                                removePrefix: '',
+                                sourceFiles: 'build/gateway-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -164,11 +150,25 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary/back',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-gateway'
                             ),
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[,]+',
+                                remoteDirectory: '/docker/thelibrary-group/sh',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'wait-for-it.sh'
+                            )
                         ],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
@@ -208,8 +208,8 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '/docker/thelibrary-group/',
                                 remoteDirectorySDF: false,
-                                removePrefix: 'docker',
-                                sourceFiles: '../docker/back/microservice-book-0.0.1-SNAPSHOT.jar'
+                                removePrefix: '',
+                                sourceFiles: 'build/microservice-book-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -220,7 +220,7 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary/back',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-ms-book'
@@ -257,7 +257,7 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary/front',
+                                remoteDirectory: '/docker/thelibrary-group/build/angular-app',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: '**/*'
@@ -265,30 +265,16 @@ node {
                             sshTransfer(
                                 cleanRemote: false,
                                 excludes: '',
-                                execCommand: 'cp /etc/letsencrypt/live/jenkins.mypoc.online/fullchain.pem /opt/docker/thelibrary/build/front/ssl/fullchain.pem && cp /etc/letsencrypt/live/jenkins.mypoc.online/privkey.pem /opt/docker/thelibrary/build/front/ssl/privkey.pem',
+                                execCommand: 'cp /etc/letsencrypt/live/jenkins.mypoc.online/fullchain.pem /opt/docker/thelibrary-group/build/angular-app/ssl/fullchain.pem && cp /etc/letsencrypt/live/jenkins.mypoc.online/privkey.pem /opt/docker/thelibrary-group/build/angular-app/ssl/privkey.pem',
                                 execTimeout: 300000,
                                 flatten: false,
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary',
+                                remoteDirectory: '/docker/thelibrary-group/',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: ''
-                            ),
-                            sshTransfer(
-                                cleanRemote: false,
-                                excludes: '',
-                                execCommand: '',
-                                execTimeout: 120000,
-                                flatten: false,
-                                makeEmptyDirs: false,
-                                noDefaultExcludes: false,
-                                patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary/front',
-                                remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: 'Dockerfile-gateway'
                             ),
                         ],
                         usePromotionTimestamp: false,
@@ -299,5 +285,41 @@ node {
             )
         }
 
+    stage('Git clone docker-compose') {
+             git 'https://github.com/TheLibraryGroup/docker.git'
+        }
+
+        stage('SSH publisher docker-compose'){
+            sshPublisher(
+                publishers: [
+                    sshPublisherDesc(
+                        configName: 'vps778813.ovh.net',
+                        transfers: [
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'docker-compose.yml'
+                            ),
+                        ],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false
+                    )
+                ]
+            )
+        }
+
+        stage('Clean workspace'){
+            cleanWs()
+        }
 
 }
