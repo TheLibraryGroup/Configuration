@@ -758,6 +758,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/BookApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/microservice/src/main/java/org/thibaut/thelibrary/config/CorsFilter.java">
           <value>
             <set />
@@ -1198,6 +1203,31 @@
             <set />
           </value>
         </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/java/org/thibaut/thelibrary/dashboardservice/DashboardServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/java/org/thibaut/thelibrary/dashboardservice/HystrixDashboardApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/java/org/thibaut/thelibrary/hystrixdashboard/HystrixDashboardApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/docker-compose.yml">
           <value>
             <set />
@@ -1229,6 +1259,11 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/CategoryMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/tl-docker-test/docker-compose.yml">
           <value>
             <set />
           </value>
