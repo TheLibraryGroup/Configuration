@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/dummy.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -348,6 +353,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../configuration-service/src/main/java/org/thibaut/thelibrary/configurationservice/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../configuration-service/src/main/resources/application.yml">
           <value>
             <set />
@@ -364,6 +374,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../discovery-service/src/main/java/org/thibaut/discoveryservice/DiscoveryServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../discovery-service/src/main/java/org/thibaut/discoveryservice/WebSecurityConfig.java">
           <value>
             <set />
           </value>
@@ -878,6 +893,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/dto/BookDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/BookMapper.java">
           <value>
             <set />
@@ -889,6 +909,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/EditorMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/WithTimezoneToLocalDate.java">
           <value>
             <set />
           </value>
@@ -1183,6 +1208,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/media/jmilton/Data/Workspace/EXTERNE/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-eureka/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/media/jmilton/Data/Workspace/EXTERNE/spring-cloud-gateway-with-keycloak/src/main/resources/application.yml">
           <value>
             <set />
@@ -1194,6 +1224,36 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/EXTERNE/tutorials/spring-cloud/spring-cloud-bootstrap/gateway/src/main/java/com/baeldung/spring/cloud/bootstrap/gateway/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/src/main/java/org/thibaut/thelibrary/adminserver/AdminserverApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/src/main/java/org/thibaut/thelibrary/adminserver/MonitoringServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/src/main/java/org/thibaut/thelibrary/adminserver/SecuritySecureConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/src/main/java/org/thibaut/thelibrary/adminserver/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/adminserver/src/main/resources/application.yml">
           <value>
             <set />
           </value>
@@ -1214,6 +1274,11 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/java/org/thibaut/thelibrary/dashboardservice/HystrixDashboardApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/dashboard-service/src/main/java/org/thibaut/thelibrary/dashboardservice/SecurityConfig.java">
           <value>
             <set />
           </value>
@@ -1259,6 +1324,36 @@
           </value>
         </entry>
         <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/microservice-book/service/src/main/java/org/thibaut/thelibrary/mapper/CategoryMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/configuration-service/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/configuration-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/discovery-service/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/discovery-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/media/jmilton/Data/Workspace/OpenclassroomsProjects/TheLibrary/TheLibraryGroup/test-hassan/docker-compose.yml">
           <value>
             <set />
           </value>
