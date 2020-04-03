@@ -24,10 +24,10 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: 'build/configuration-service-0.0.1-SNAPSHOT.jar'
+                                sourceFiles: 'configuration-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -80,10 +80,10 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: 'build/discovery-service-0.0.1-SNAPSHOT.jar'
+                                sourceFiles: 'discovery-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -136,10 +136,10 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: 'build/gateway-service-0.0.1-SNAPSHOT.jar'
+                                sourceFiles: 'gateway-service-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -154,20 +154,6 @@ node {
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-gateway'
-                            ),
-                            sshTransfer(
-                                cleanRemote: false,
-                                excludes: '',
-                                execCommand: '',
-                                execTimeout: 120000,
-                                flatten: false,
-                                makeEmptyDirs: false,
-                                noDefaultExcludes: false,
-                                patternSeparator: '[,]+',
-                                remoteDirectory: '/docker/thelibrary-group/sh',
-                                remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: 'wait-for-it.sh'
                             )
                         ],
                         usePromotionTimestamp: false,
@@ -181,6 +167,119 @@ node {
         stage('Clean workspace'){
             cleanWs()
         }
+
+
+    stage('Git clone monitoring-service') {
+              git 'https://github.com/TheLibraryGroup/monitoring-service.git'
+        }
+
+        stage('Maven package'){
+            def mvnHome = tool name: 'maven', type: 'maven'
+            sh "${mvnHome}/bin/mvn -f pom.xml package"
+        }
+
+        stage('SSH publisher monitoring-service'){
+            sshPublisher(
+                publishers: [
+                    sshPublisherDesc(
+                        configName: 'vps778813.ovh.net',
+                        transfers: [
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/build',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'monitoring-service-0.0.1-SNAPSHOT.jar'
+                            ),
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[,]+',
+                                remoteDirectory: '/docker/thelibrary-group/build',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'Dockerfile-monitoring'
+                            )
+                        ],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false
+                    )
+                ]
+            )
+        }
+
+        stage('Clean workspace'){
+            cleanWs()
+        }
+
+    stage('Git clone dashboard-service') {
+                  git 'https://github.com/TheLibraryGroup/dashboard-service.git'
+            }
+
+            stage('Maven package'){
+                def mvnHome = tool name: 'maven', type: 'maven'
+                sh "${mvnHome}/bin/mvn -f pom.xml package"
+            }
+
+            stage('SSH publisher dashboard-service'){
+                sshPublisher(
+                    publishers: [
+                        sshPublisherDesc(
+                            configName: 'vps778813.ovh.net',
+                            transfers: [
+                                sshTransfer(
+                                    cleanRemote: false,
+                                    excludes: '',
+                                    execCommand: '',
+                                    execTimeout: 120000,
+                                    flatten: false,
+                                    makeEmptyDirs: false,
+                                    noDefaultExcludes: false,
+                                    patternSeparator: '[, ]+',
+                                    remoteDirectory: '/docker/thelibrary-group/build',
+                                    remoteDirectorySDF: false,
+                                    removePrefix: '',
+                                    sourceFiles: 'dashboard-service-0.0.1-SNAPSHOT.jar'
+                                ),
+                                sshTransfer(
+                                    cleanRemote: false,
+                                    excludes: '',
+                                    execCommand: '',
+                                    execTimeout: 120000,
+                                    flatten: false,
+                                    makeEmptyDirs: false,
+                                    noDefaultExcludes: false,
+                                    patternSeparator: '[,]+',
+                                    remoteDirectory: '/docker/thelibrary-group/build',
+                                    remoteDirectorySDF: false,
+                                    removePrefix: '',
+                                    sourceFiles: 'Dockerfile-dashboard'
+                                )
+                            ],
+                            usePromotionTimestamp: false,
+                            useWorkspaceInPromotion: false,
+                            verbose: false
+                        )
+                    ]
+                )
+            }
+
+            stage('Clean workspace'){
+                cleanWs()
+            }
 
     stage('Git clone book-service') {
              git 'https://github.com/TheLibraryGroup/microservice-book.git'
@@ -206,10 +305,10 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: 'build/microservice-book-0.0.1-SNAPSHOT.jar'
+                                sourceFiles: 'microservice-book-0.0.1-SNAPSHOT.jar'
                             ),
                             sshTransfer(
                                 cleanRemote: false,
@@ -223,7 +322,7 @@ node {
                                 remoteDirectory: '/docker/thelibrary-group/build',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: 'Dockerfile-ms-book'
+                                sourceFiles: 'Dockerfile-book'
                             ),
                         ],
                         usePromotionTimestamp: false,
@@ -308,6 +407,20 @@ node {
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'docker-compose.yml'
+                            ),
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/sh',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'sh/wait-for-it.sh'
                             ),
                         ],
                         usePromotionTimestamp: false,
