@@ -1,5 +1,57 @@
 node {
 
+    stage('Git clone docker-compose') {
+             git 'https://github.com/TheLibraryGroup/docker.git'
+        }
+
+        stage('SSH publisher docker-compose'){
+            sshPublisher(
+                publishers: [
+                    sshPublisherDesc(
+                        configName: 'vps778813.ovh.net',
+                        transfers: [
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'docker-compose.yml'
+                            ),
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/build',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'wait-for-it.sh'
+                            ),
+                        ],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false
+                    )
+                ]
+            )
+        }
+
+        stage('Clean workspace'){
+            cleanWs()
+        }
+
+
     stage('Git clone configuration-service') {
           git 'https://github.com/TheLibraryGroup/configuration-service.git'
         }
@@ -56,6 +108,7 @@ node {
             cleanWs()
         }
 
+
     stage('Git clone discovery-service') {
               git 'https://github.com/TheLibraryGroup/discovery-service.git'
         }
@@ -111,6 +164,7 @@ node {
         stage('Clean workspace'){
             cleanWs()
         }
+
 
     stage('Git clone gateway-service') {
               git 'https://github.com/TheLibraryGroup/gateway-service.git'
@@ -169,6 +223,7 @@ node {
         }
 
 
+
     stage('Git clone monitoring-service') {
               git 'https://github.com/TheLibraryGroup/monitoring-service.git'
         }
@@ -224,6 +279,7 @@ node {
         stage('Clean workspace'){
             cleanWs()
         }
+
 
     stage('Git clone dashboard-service') {
                   git 'https://github.com/TheLibraryGroup/dashboard-service.git'
@@ -281,6 +337,7 @@ node {
                 cleanWs()
             }
 
+
     stage('Git clone book-service') {
              git 'https://github.com/TheLibraryGroup/microservice-book.git'
         }
@@ -323,6 +380,63 @@ node {
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'Dockerfile-book'
+                            ),
+                        ],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false
+                    )
+                ]
+            )
+        }
+
+        stage('Clean workspace'){
+            cleanWs()
+        }
+
+
+    stage('Git clone loan-service') {
+             git 'https://github.com/TheLibraryGroup/microservice-loan.git'
+        }
+
+        stage('Maven package'){
+            def mvnHome = tool name: 'maven', type: 'maven'
+            sh "${mvnHome}/bin/mvn -f pom.xml package"
+        }
+
+        stage('SSH publisher loan-service'){
+            sshPublisher(
+                publishers: [
+                    sshPublisherDesc(
+                        configName: 'vps778813.ovh.net',
+                        transfers: [
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '/docker/thelibrary-group/build',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'microservice-loan-0.0.1-SNAPSHOT.jar'
+                            ),
+                            sshTransfer(
+                                cleanRemote: false,
+                                excludes: '',
+                                execCommand: '',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[,]+',
+                                remoteDirectory: '/docker/thelibrary-group/build',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'Dockerfile-loan'
                             ),
                         ],
                         usePromotionTimestamp: false,
@@ -384,55 +498,6 @@ node {
             )
         }
 
-    stage('Git clone docker-compose') {
-             git 'https://github.com/TheLibraryGroup/docker.git'
-        }
 
-        stage('SSH publisher docker-compose'){
-            sshPublisher(
-                publishers: [
-                    sshPublisherDesc(
-                        configName: 'vps778813.ovh.net',
-                        transfers: [
-                            sshTransfer(
-                                cleanRemote: false,
-                                excludes: '',
-                                execCommand: '',
-                                execTimeout: 120000,
-                                flatten: false,
-                                makeEmptyDirs: false,
-                                noDefaultExcludes: false,
-                                patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/',
-                                remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: 'docker-compose.yml'
-                            ),
-                            sshTransfer(
-                                cleanRemote: false,
-                                excludes: '',
-                                execCommand: '',
-                                execTimeout: 120000,
-                                flatten: false,
-                                makeEmptyDirs: false,
-                                noDefaultExcludes: false,
-                                patternSeparator: '[, ]+',
-                                remoteDirectory: '/docker/thelibrary-group/sh',
-                                remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: 'sh/wait-for-it.sh'
-                            ),
-                        ],
-                        usePromotionTimestamp: false,
-                        useWorkspaceInPromotion: false,
-                        verbose: false
-                    )
-                ]
-            )
-        }
-
-        stage('Clean workspace'){
-            cleanWs()
-        }
 
 }

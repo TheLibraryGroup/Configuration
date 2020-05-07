@@ -10,12 +10,12 @@ spring:
     datasource:
         driverClassName: org.postgresql.Driver
         username: admin_tl
-        password: 123
-        url: jdbc:postgresql://localhost:5432/thelibrary_loan?currentSchema=local
+        password: 963317
+        url: jdbc:postgresql://db.mypoc.online:5433/thelibrary_loan?currentSchema=dev
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
-        hibernate:
-            ddl-auto: update
+#        hibernate:
+#            ddl-auto: update
         properties:
             hibernate:
                 temp:
