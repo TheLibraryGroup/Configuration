@@ -14,8 +14,8 @@ spring:
         url: jdbc:postgresql://db.mypoc.online:5433/thelibrary_loan?currentSchema=dev
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
-#        hibernate:
-#            ddl-auto: update
+        hibernate:
+            ddl-auto: update
         properties:
             hibernate:
                 temp:
